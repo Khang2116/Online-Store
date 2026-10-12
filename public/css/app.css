@@ -4,7 +4,6 @@
 
 .copyright {
     background-color: #1a252f;
-    margin-top: auto;
 }
 
 .bg-primary {
@@ -18,10 +17,4 @@ nav {
 .img-card {
     height: 18vw;
     object-fit: cover;
-}
-
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
