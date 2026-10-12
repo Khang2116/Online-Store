@@ -14,15 +14,15 @@
     <!-- header -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary py-4">
         <div class="container">
-            <a class="navbar-brand" href="#">Online Store</a>
+            <a class="navbar-brand" href="{{ route('home.index') }}">Online Store</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" databs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-link active" href="#">Home</a>
-                    <a class="nav-link active" href="#">About</a>
+                    <a class="nav-link active" href="{{ route('home.index') }}">Home</a>
+                    <a class="nav-link active" href="{{ route('home.about') }}">About</a>
                 </div>
             </div>
         </div>
@@ -42,13 +42,13 @@
         <div class="container">
             <small> Copyright - <a class="text-reset fw-bold text-decorationnone" target="_blank"
                     href="https://twitter.com/">
-                    NĐDuy
+                    LK
                 </a> - <b>CKC</b>
             </small>
         </div>
     </div>
     <!-- footer -->
-     
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous">
     </script>
 </body>
