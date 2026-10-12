@@ -8,7 +8,7 @@ class ProductController extends Controller
     {
         $viewData = [];
         $viewData['title'] = 'Products - Online Store';
-        $viewData['subtitle'] = 'Danh sách sản phẩm.';
+        $viewData['subtitle'] = 'Danh sách sản phẩm';
         $viewData['products'] = ProductController::$products;
         return view('product.index')->with('viewData', $viewData);
     }
@@ -17,7 +17,7 @@ class ProductController extends Controller
         $viewData = [];
         $product = ProductController::$products[$id - 1];
         $viewData['title'] = $product['name'] . ' - Online Store';
-        $viewData['subtitle'] = $product['name'] . ' – Thông tin sản phẩm.';
+        $viewData['subtitle'] = $product['name'] . ' – Thông tin sản phẩm';
         $viewData['product'] = $product;
         return view('product.show')->with('viewData', $viewData);
     }

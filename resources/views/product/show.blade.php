@@ -13,8 +13,7 @@
                         {{ $viewData['product']['name'] }} (${{ $viewData['product']['price'] }})
                     </h5>
                     <p class="card-text">{{ $viewData['product']['description'] }}</p>
-                    <p class="card-text"><small class="text-muted">Add to
-                            Cart</small></p>
+                    <p class="card-text"><small class="text-muted">Thêm vào giỏ hàng</small></p>
                 </div>
             </div>
         </div>
